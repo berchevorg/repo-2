@@ -1,6 +1,6 @@
 terraform {
   backend "remote" {
-    organization = "berchevorg"
+    organization = "twentyfour24"
 
     workspaces {
       name = "repo-2"
@@ -10,7 +10,7 @@ terraform {
 
 resource "random_pet" "name" {
 
-  length    = "6"
+  length    = "5"
   separator = "-"
 }
 
